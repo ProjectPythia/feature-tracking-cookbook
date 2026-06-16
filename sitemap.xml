@@ -8,6 +8,18 @@
     <loc>http://localhost:3000/notebooks/how-to-cite</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/notebooks/notebook-template</loc>
+    <loc>http://localhost:3000/notebooks/scikit-slp-precip</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/notebooks/scipy-precip</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/notebooks/slp-matplotlib</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/notebooks/slp-scikit</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/notebooks/slp-scipy</loc>
   </url>
 </urlset>

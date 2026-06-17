@@ -20,6 +20,9 @@
     <loc>http://localhost:3000/notebooks/precip-scikit</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/notebooks/matplotlib-slp</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/notebooks/slp-scipy</loc>
   </url>
   <url>

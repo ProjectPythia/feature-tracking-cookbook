@@ -32,6 +32,9 @@
     <loc>http://localhost:3000/notebooks/scikit-slp-precip</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/notebooks/scipy-precip-slp</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/notebooks/era5-demo</loc>
   </url>
 </urlset>

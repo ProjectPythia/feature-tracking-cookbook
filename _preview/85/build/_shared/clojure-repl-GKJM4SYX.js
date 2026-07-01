@@ -1,1 +1,0 @@
-import{c as n}from"/feature-tracking-cookbook/_preview/85/build/_shared/chunk-OZE3FFNP.js";var a=n((t,e)=>{function s(r){return{name:"Clojure REPL",contains:[{className:"meta",begin:/^([\w.-]+|\s*#_)?=>/,starts:{end:/$/,subLanguage:"clojure"}}]}}e.exports=s});export default a();

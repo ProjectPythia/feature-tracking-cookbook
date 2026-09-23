@@ -183,42 +183,42 @@ input[type=range].anim-slider {
 </style>
 
 <div class="animation">
-  <img id="_anim_imgd168894ce9de4802b82ae565b6bac7fc">
+  <img id="_anim_img2af2281dc31f488fa4e82172de7cdcd0">
   <div class="anim-controls">
-    <input id="_anim_sliderd168894ce9de4802b82ae565b6bac7fc" type="range" class="anim-slider"
+    <input id="_anim_slider2af2281dc31f488fa4e82172de7cdcd0" type="range" class="anim-slider"
            name="points" min="0" max="1" step="1" value="0"
-           oninput="animd168894ce9de4802b82ae565b6bac7fc.set_frame(parseInt(this.value));">
+           oninput="anim2af2281dc31f488fa4e82172de7cdcd0.set_frame(parseInt(this.value));">
     <div class="anim-buttons">
-      <button title="Decrease speed" aria-label="Decrease speed" onclick="animd168894ce9de4802b82ae565b6bac7fc.slower()">
+      <button title="Decrease speed" aria-label="Decrease speed" onclick="anim2af2281dc31f488fa4e82172de7cdcd0.slower()">
           <i class="fa fa-minus"></i></button>
-      <button title="First frame" aria-label="First frame" onclick="animd168894ce9de4802b82ae565b6bac7fc.first_frame()">
+      <button title="First frame" aria-label="First frame" onclick="anim2af2281dc31f488fa4e82172de7cdcd0.first_frame()">
         <i class="fa fa-fast-backward"></i></button>
-      <button title="Previous frame" aria-label="Previous frame" onclick="animd168894ce9de4802b82ae565b6bac7fc.previous_frame()">
+      <button title="Previous frame" aria-label="Previous frame" onclick="anim2af2281dc31f488fa4e82172de7cdcd0.previous_frame()">
           <i class="fa fa-step-backward"></i></button>
-      <button title="Play backwards" aria-label="Play backwards" onclick="animd168894ce9de4802b82ae565b6bac7fc.reverse_animation()">
+      <button title="Play backwards" aria-label="Play backwards" onclick="anim2af2281dc31f488fa4e82172de7cdcd0.reverse_animation()">
           <i class="fa fa-play fa-flip-horizontal"></i></button>
-      <button title="Pause" aria-label="Pause" onclick="animd168894ce9de4802b82ae565b6bac7fc.pause_animation()">
+      <button title="Pause" aria-label="Pause" onclick="anim2af2281dc31f488fa4e82172de7cdcd0.pause_animation()">
           <i class="fa fa-pause"></i></button>
-      <button title="Play" aria-label="Play" onclick="animd168894ce9de4802b82ae565b6bac7fc.play_animation()">
+      <button title="Play" aria-label="Play" onclick="anim2af2281dc31f488fa4e82172de7cdcd0.play_animation()">
           <i class="fa fa-play"></i></button>
-      <button title="Next frame" aria-label="Next frame" onclick="animd168894ce9de4802b82ae565b6bac7fc.next_frame()">
+      <button title="Next frame" aria-label="Next frame" onclick="anim2af2281dc31f488fa4e82172de7cdcd0.next_frame()">
           <i class="fa fa-step-forward"></i></button>
-      <button title="Last frame" aria-label="Last frame" onclick="animd168894ce9de4802b82ae565b6bac7fc.last_frame()">
+      <button title="Last frame" aria-label="Last frame" onclick="anim2af2281dc31f488fa4e82172de7cdcd0.last_frame()">
           <i class="fa fa-fast-forward"></i></button>
-      <button title="Increase speed" aria-label="Increase speed" onclick="animd168894ce9de4802b82ae565b6bac7fc.faster()">
+      <button title="Increase speed" aria-label="Increase speed" onclick="anim2af2281dc31f488fa4e82172de7cdcd0.faster()">
           <i class="fa fa-plus"></i></button>
     </div>
-    <form title="Repetition mode" aria-label="Repetition mode" action="#n" name="_anim_loop_selectd168894ce9de4802b82ae565b6bac7fc"
+    <form title="Repetition mode" aria-label="Repetition mode" action="#n" name="_anim_loop_select2af2281dc31f488fa4e82172de7cdcd0"
           class="anim-state">
-      <input type="radio" name="state" value="once" id="_anim_radio1_d168894ce9de4802b82ae565b6bac7fc"
+      <input type="radio" name="state" value="once" id="_anim_radio1_2af2281dc31f488fa4e82172de7cdcd0"
              >
-      <label for="_anim_radio1_d168894ce9de4802b82ae565b6bac7fc">Once</label>
-      <input type="radio" name="state" value="loop" id="_anim_radio2_d168894ce9de4802b82ae565b6bac7fc"
+      <label for="_anim_radio1_2af2281dc31f488fa4e82172de7cdcd0">Once</label>
+      <input type="radio" name="state" value="loop" id="_anim_radio2_2af2281dc31f488fa4e82172de7cdcd0"
              checked>
-      <label for="_anim_radio2_d168894ce9de4802b82ae565b6bac7fc">Loop</label>
-      <input type="radio" name="state" value="reflect" id="_anim_radio3_d168894ce9de4802b82ae565b6bac7fc"
+      <label for="_anim_radio2_2af2281dc31f488fa4e82172de7cdcd0">Loop</label>
+      <input type="radio" name="state" value="reflect" id="_anim_radio3_2af2281dc31f488fa4e82172de7cdcd0"
              >
-      <label for="_anim_radio3_d168894ce9de4802b82ae565b6bac7fc">Reflect</label>
+      <label for="_anim_radio3_2af2281dc31f488fa4e82172de7cdcd0">Reflect</label>
     </form>
   </div>
 </div>
@@ -228,9 +228,9 @@ input[type=range].anim-slider {
   /* Instantiate the Animation class. */
   /* The IDs given should match those used in the template above. */
   (function() {
-    var img_id = "_anim_imgd168894ce9de4802b82ae565b6bac7fc";
-    var slider_id = "_anim_sliderd168894ce9de4802b82ae565b6bac7fc";
-    var loop_select_id = "_anim_loop_selectd168894ce9de4802b82ae565b6bac7fc";
+    var img_id = "_anim_img2af2281dc31f488fa4e82172de7cdcd0";
+    var slider_id = "_anim_slider2af2281dc31f488fa4e82172de7cdcd0";
+    var loop_select_id = "_anim_loop_select2af2281dc31f488fa4e82172de7cdcd0";
     var frames = new Array(12);
     
   frames[0] = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABdwAAAMgCAYAAAA5taA8AAAAOnRFWHRTb2Z0d2FyZQBNYXRwbG90\
@@ -38506,7 +38506,7 @@ AAAQAALuAAAAAAAAAAAEgIA7AAAAAAAAAAABIOAOAAAAAAAAAEAACLgDAAAAAAAAAGAn7n8k0jjV\
     /* set a timeout to make sure all the above elements are created before
        the object is initialized. */
     setTimeout(function() {
-        animd168894ce9de4802b82ae565b6bac7fc = new Animation(frames, img_id, slider_id, 299.0,
+        anim2af2281dc31f488fa4e82172de7cdcd0 = new Animation(frames, img_id, slider_id, 299.0,
                                  loop_select_id);
     }, 0);
   })()

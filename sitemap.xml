@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="http://localhost:3000/sitemap_style.xsl" ?>
+<?xml-stylesheet type="text/xsl" href="http://pre.render/sitemap_style.xsl" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://localhost:3000</loc>
+    <loc>http://pre.render</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/notebooks/how-to-cite</loc>
+    <loc>http://pre.render/notebooks/how-to-cite</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/notebooks/foundations</loc>
+    <loc>http://pre.render/notebooks/foundations</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/notebooks/precip-matplotlib</loc>
+    <loc>http://pre.render/notebooks/precip-matplotlib</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/notebooks/precip-scipy</loc>
+    <loc>http://pre.render/notebooks/precip-scipy</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/notebooks/precip-scikit</loc>
+    <loc>http://pre.render/notebooks/precip-scikit</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/notebooks/slp-matplotlib</loc>
+    <loc>http://pre.render/notebooks/slp-matplotlib</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/notebooks/slp-scipy</loc>
+    <loc>http://pre.render/notebooks/slp-scipy</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/notebooks/slp-scikit</loc>
+    <loc>http://pre.render/notebooks/slp-scikit</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/notebooks/precip-slp-scikit</loc>
+    <loc>http://pre.render/notebooks/precip-slp-scikit</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/notebooks/precip-slp-scipy</loc>
+    <loc>http://pre.render/notebooks/precip-slp-scipy</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/notebooks/era5-demo</loc>
+    <loc>http://pre.render/notebooks/era5-demo</loc>
   </url>
 </urlset>
